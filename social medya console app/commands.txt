@@ -1,0 +1,40 @@
+ADDUSER	Ahmet	ahmet	ahmet123	04/05/2001	Meram Anadolu Lisesi
+REMOVEUSER	1
+SIGNIN	canan	canan123
+SIGNIN	ahmet	ahmet123
+LISTUSERS
+UPDATEPROFILE	Ahmetcan	07/01/1991	Gazi University
+CHPASS	ahmet1	ahmet1234
+CHPASS	ahmet123	ahmet1234
+SIGNOUT
+SIGNIN	ahmet	ahmet1
+SIGNIN	ahmet	ahmet1234
+ADDFRIEND	amina
+ADDFRIEND	zana
+ADDFRIEND	zana
+ADDFRIEND	temel
+ADDFRIEND	enes
+ADDFRIEND	john
+REMOVEFRIEND	amina
+REMOVEFRIEND	john
+LISTFRIENDS
+ADDPOST-TEXT	Merhaba herkese!	39.25	42.81	amina:zana
+ADDPOST-IMAGE	Bebegim ilk kakasini yapti. Ne kadar da tatli!	29.87	39.46	zana:temel	kakalibebek.jpg	750x550
+ADDPOST-VIDEO	Bebegim komik yuz ifadeleri yapiyor. Aman, aman...	29.87	39.24	john:temel	yinebebek.avi	8
+ADDPOST-VIDEO	Bebegim mamasini yerken.	29.87	39.25	john:temel:zana	bebekcik.avi	12
+ADDPOST-TEXT	Herkes bebegime bakmaya bayiliyo...	38.35	33.1	zana:enes
+REMOVELASTPOST
+SHOWPOSTS	ahmet
+SHOWBLOCKEDUSERS
+BLOCK	john
+SHOWBLOCKEDFRIENDS
+BLOCK	zana
+BLOCK	enes
+BLOCK	amina
+SHOWBLOCKEDFRIENDS
+SHOWBLOCKEDUSERS
+UNBLOCK	zana
+UNBLOCK	temel
+SHOWBLOCKEDFRIENDS
+SHOWBLOCKEDUSERS
+SIGNOUT
